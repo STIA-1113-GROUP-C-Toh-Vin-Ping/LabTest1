@@ -1,0 +1,47 @@
+package quiz;
+import java.util.Scanner;
+public class LabTest1Q2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner (System.in);
+		
+		double salesvolume;
+		double sales = 0;
+		int hours;
+		int hoursprice;
+		
+		System.out.print("Please enter your sales        : RM ");
+		salesvolume = scan.nextDouble();
+		System.out.print("Please enter your working hours:");
+		hours = scan.nextInt();
+		hoursprice = hours *5;
+			
+		
+		if (salesvolume < 150.00) {
+			System.out.println("Commision     : RM 0.00");
+			double dailywedges = sales + (double)hoursprice;		
+			System.out.printf("Daily wedges : RM %.2f%n" , dailywedges);
+		}
+		else if (salesvolume >=150.00 && salesvolume <=300.00) {
+			sales=salesvolume*0.05;
+			System.out.printf("\nCommision    : RM %.2f%n", sales);
+			double dailywedges = sales + (double)hoursprice;
+			System.out.printf("Daily wedges : RM %.2f%n" , dailywedges);
+		}
+		else if (salesvolume >=301.00 && salesvolume <=500.00) {
+			sales=salesvolume*0.10;
+			System.out.printf("\nCommision    : RM %.2f%n", sales);
+			double dailywedges = sales + (double)hoursprice;
+			System.out.printf("Daily wedges : RM %.2f%n" , dailywedges);
+		}
+		else if (salesvolume > 500.00) {
+			sales=salesvolume*0.15;
+			System.out.printf("\nCommision    : RM %.2f%n", sales);
+			double dailywedges = sales + (double)hoursprice;
+			System.out.printf("Daily wedges : RM %.2f%n" , dailywedges);
+		}
+		
+	}
+
+}
