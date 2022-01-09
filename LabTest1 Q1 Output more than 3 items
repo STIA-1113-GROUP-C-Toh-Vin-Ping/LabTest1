@@ -1,0 +1,22 @@
+C_MARTS shopping complex
+------------------------
+Enter the number of items:6
+The maximum number of items is 3.
+Please reenter again. Thank you!
+
+C_MARTS shopping complex
+------------------------
+Enter the number of items:3
+Enter the price of 1 item	:RM20
+Enter the quantity of 1 item	:2
+
+Enter the price of 2 item	:RM50
+Enter the quantity of 2 item	:1
+
+Enter the price of 3 item	:RM33
+Enter the quantity of 3 item	:200
+
+------------------------------
+Total price		: RM 6690.00
+Discount recieve	: RM 1338.00
+Price to be paid	: RM 5352.00
