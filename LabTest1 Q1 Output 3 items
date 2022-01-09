@@ -1,16 +1,16 @@
 C_MARTS shopping complex
 ------------------------
 Enter the number of items:3
-Enter the price of 1 item	:RM20
-Enter the quantity of 1 item	:1
+Enter the price of item 1	:RM20
+Enter the quantity of item 1	:2
 
-Enter the price of 2 item	:RM35
-Enter the quantity of 2 item	:20
+Enter the price of item 2	:RM50
+Enter the quantity of item 2	:1
 
-Enter the price of 3 item	:RM35
-Enter the quantity of 3 item	:2
+Enter the price of item 3	:RM30
+Enter the quantity of item 3	:3
 
 ------------------------------
-Total price		: RM 790.00
-Discount recieve	: RM 158.00
-Price to be paid	: RM 632.00
+Total price		: RM 180.00
+Discount recieve	: RM 36.00
+Price to be paid	: RM 144.00
