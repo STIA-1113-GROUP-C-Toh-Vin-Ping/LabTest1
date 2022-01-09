@@ -27,9 +27,9 @@ public class LabTest1Q1 {
 	    double paid;
 	    	
 	    	while (i<=items){
-	        System.out.printf("Enter the price of "+i+" item\t:RM");
+	        System.out.printf("Enter the price of item " +i + "\t:RM");
 	        price = scan.nextDouble();
-	        System.out.printf("Enter the quantity of "+i+" item\t:");
+	        System.out.printf("Enter the quantity of item " + i + "\t:");
 	        quantity = scan.nextInt();
 	        System.out.println();
 	        total= price *quantity;
