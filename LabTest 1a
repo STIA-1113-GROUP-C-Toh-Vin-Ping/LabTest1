@@ -31,15 +31,15 @@ public class LabTest1a {
 		if (totalprice < 100.00) {
 			double discountreceived = (totalprice*10)/100;
 			double x = totalprice - discountreceived;
-		       System.out.printf("Total price       : RM%.2f%n" , totalprice);
+		       System.out.printf("\nTotal price       : RM%.2f%n" , totalprice);
 		       System.out.printf("Discount received : RM%.2f%n" , discountreceived);
 		       System.out.printf("Price to be paid  : RM%.2f%n" , x);
 		       }
 		
-		if (totalprice > 100.00) {
+		if (totalprice >= 100.00) {
 			double discountreceived = (totalprice*20)/100;
 			double x = totalprice - discountreceived;
-		       System.out.printf("Total price       : RM%.2f%n" , totalprice);
+		       System.out.printf("\nTotal price       : RM%.2f%n" , totalprice);
 		       System.out.printf("Discount received : RM%.2f%n" , discountreceived);
 		       System.out.printf("Price to be paid  : RM%.2f%n" , x);
 		       }	
